@@ -3420,6 +3420,15 @@
                                 >Services</a
                               >
                             </li>
+                            <li
+                              id="menu-item-59"
+                              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-59"
+                            >
+                              <a
+                                href="index.html"
+                                >Projects</a
+                              >
+                            </li>
 
                             <style>
                               @media screen and (max-width: 767px) {
@@ -3520,211 +3529,104 @@
             data-e-type="container"
             data-settings='{"background_background":"classic","_ha_eqh_enable":false}'
           >
-            <div
-              class="elementor-element elementor-element-040bd13 e-con-full e-flex e-con e-child"
-              data-id="040bd13"
-              data-element_type="container"
-              data-e-type="container"
-              data-settings='{"_ha_eqh_enable":false}'
-            >
-              <div
-                class="elementor-element elementor-element-5eb0ba9 elementor-widget elementor-widget-jkit_heading"
-                data-id="5eb0ba9"
-                data-element_type="widget"
-                data-e-type="widget"
-                data-widget_type="jkit_heading.default"
-              >
-                <div class="elementor-widget-container">
-                  <div
-                    class="jeg-elementor-kit jkit-heading align-center align-tablet- align-mobile- jeg_module_7_3_6a7622608e174"
-                  >
-                    <div class="heading-section-title display-inline-block">
-                      <h2 class="heading-title">I, am</h2>
-                    </div>
-                    <h3 class="heading-section-subtitle style-color">
-                      Digital Marketer
-                    </h3>
-                  </div>
+            <div style="width: 100%; padding: 5rem 2rem; max-width: 1200px; margin: 0 auto;">
+              <style>
+                .clean-hero-name { font-size: clamp(2.5rem, 8vw, 4rem); font-weight: 800; text-align: center; color: #1a1a2e; margin-bottom: 1rem; }
+                .clean-hero-desc { font-size: 1.1rem; color: #64748b; text-align: center; max-width: 600px; margin: 0 auto 3rem; line-height: 1.6; }
+                .skills-ring-w { max-width: 400px; margin: 3rem auto; position: relative; height: 300px; display: flex; align-items: center; justify-content: center; }
+                .skills-ring-c { width: 250px; height: 250px; border-radius: 50%; border: 3px solid #e2e8f0; position: relative; display: flex; align-items: center; justify-content: center; animation: rotate-r 20s linear infinite; }
+                @keyframes rotate-r { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+                .skill-i { position: absolute; width: 50px; height: 50px; background: white; border: 2px solid #1a1a2e; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 0.9rem; color: #1a1a2e; box-shadow: 0 4px 12px rgba(26, 26, 46, 0.1); }
+                .skill-i:nth-child(1) { top: 0; left: 50%; transform: translateX(-50%); }
+                .skill-i:nth-child(2) { top: 25px; right: 25px; transform: rotate(-60deg); }
+                .skill-i:nth-child(3) { top: 100px; right: -10px; transform: rotate(-120deg); }
+                .skill-i:nth-child(4) { bottom: 0; left: 50%; transform: translateX(-50%) rotate(-180deg); }
+                .skill-i:nth-child(5) { bottom: 25px; left: 25px; transform: rotate(-240deg); }
+                .skill-i:nth-child(6) { top: 100px; left: -10px; transform: rotate(-300deg); }
+                .ring-ctr { position: absolute; width: 100px; height: 100px; background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: 700; font-size: 1.2rem; z-index: 10; box-shadow: 0 8px 24px rgba(26, 26, 46, 0.15); }
+                .social-prof { display: flex; justify-content: center; gap: 2rem; margin-top: 3rem; flex-wrap: wrap; }
+                .social-l { width: 60px; height: 60px; border-radius: 50%; background: white; border: 2px solid #1a1a2e; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; text-decoration: none; transition: all 0.3s ease; color: #1a1a2e!important; }
+                .social-l:hover { background: #1a1a2e; color: white!important; transform: translateY(-4px); box-shadow: 0 12px 24px rgba(26, 26, 46, 0.2); }
+                @media (max-width: 768px) { .clean-hero-name { font-size: 2rem; } .skills-ring-w { height: 250px; max-width: 300px; } .skills-ring-c { width: 200px; height: 200px; } .skill-i { width: 40px; height: 40px; font-size: 0.8rem; } .ring-ctr { width: 80px; height: 80px; font-size: 1rem; } .social-prof { gap: 1.5rem; } .social-l { width: 50px; height: 50px; font-size: 1.2rem; } }
+              </style>
+              <h1 class="clean-hero-name" style="color: white; margin-bottom: 35px;">Khushi Dariyani</h1>
+              <p class="clean-hero-desc">Digital Marketer & Growth Strategist | Helping brands scale through data-driven marketing & creative storytelling</p>
+              <style>
+                /* Modern right-to-left staggered headline */
+                .animated-skills-headline{overflow:hidden;margin:3rem 0 2.5rem 0;display:flex;flex-direction:column;align-items:center}
+                .skills-headline-text{font-size:clamp(1.4rem,4vw,2rem);font-weight:800;color:#0f172a;letter-spacing:-0.6px;display:inline-block;line-height:1;position:relative}
+
+                .skills-headline-text .word{display:inline-block;transform:translateX(48px) skewX(-6deg);opacity:0;filter:drop-shadow(0 6px 18px rgba(12,18,36,0.06));}
+                .skills-headline-text .word.is-reveal{animation:wordIn .62s cubic-bezier(.2,.9,.28,1) forwards;}
+                .skills-headline-text .word[data-i]{animation-delay:calc(var(--delay-mult,0.12s) * var(--i));}
+
+                .skills-headline-text::after{content:'';display:block;height:4px;width:220px;max-width:60%;background:linear-gradient(90deg,#06b6d4,#1e3a8a);border-radius:3px;margin-top:10px;transform-origin:right;transform:scaleX(0);animation:underlineIn .9s cubic-bezier(.2,.9,.28,1) forwards;animation-delay:calc(var(--underline-delay,0.25s));}
+
+                @keyframes wordIn{to{transform:translateX(0) skewX(0);opacity:1}}
+                @keyframes underlineIn{to{transform:scaleX(1)}}
+
+                /* make buttons grid remain but visually subtle */
+                .modern-skills-grid{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-top:1rem}
+                .skill-button{background:transparent;border:1px solid rgba(15,23,42,0.06);padding:.5rem .9rem;border-radius:999px;font-weight:700;color:#0f172a;transition:all .18s ease}
+                .skill-button:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(12,18,36,0.08);border-color:rgba(14,165,233,0.9)}
+
+                @media (max-width:768px){.skills-headline-text{font-size:1.3rem}.skills-headline-text::after{width:160px}}
+
+                /* reduced motion preference */
+                @media (prefers-reduced-motion:reduce){
+                  .skills-headline-text .word{animation:none;transform:none;opacity:1}
+                  .skills-headline-text::after{animation:none;transform:scaleX(1)}
+                }
+              </style>
+
+              <div class="animated-skills-headline">
+                <h2 class="skills-headline-text" style="--delay-mult:0.12s; --underline-delay:0.28s">
+                  <span class="word" style="--i:2; color: white!important;" data-i="2">My</span>
+                  &nbsp;
+                  <span class="word" style="--i:1; color: white!important;" data-i="1">Core</span>
+                  &nbsp;
+                  <span class="word" style="--i:0; color: white!important;" data-i="0">Skills</span>
+                </h2>
+                <div class="modern-skills-grid" aria-hidden="true">
+                  <button class="skill-button">SEO</button>
+                  <button class="skill-button">Content</button>
+                  <button class="skill-button">Branding</button>
+                  <button class="skill-button">Strategy</button>
+                  <button class="skill-button">Analytics</button>
+                  <button class="skill-button">Social</button>
+                  <button class="skill-button">Growth</button>
+                  <button class="skill-button">Design</button>
                 </div>
               </div>
-              <div
-                class="elementor-element elementor-element-9138933 e-con-full e-flex e-con e-child"
-                data-id="9138933"
-                data-element_type="container"
-                data-e-type="container"
-                data-settings='{"_ha_eqh_enable":false}'
-              >
-                <div
-                  class="elementor-element elementor-element-bfe15e7 e-con-full e-flex e-con e-child"
-                  data-id="bfe15e7"
-                  data-element_type="container"
-                  data-e-type="container"
-                  data-settings='{"_ha_eqh_enable":false}'
-                >
-                  <div
-                    class="elementor-element elementor-element-e5e1854 elementor-widget elementor-widget-text-editor"
-                    data-id="e5e1854"
-                    data-element_type="widget"
-                    data-e-type="widget"
-                    data-widget_type="text-editor.default"
-                  >
-                    <div class="elementor-widget-container" style="margin-top: 20px;">
-                      <p>
-						I don't just “do marketing.” I engineer growth systems
-						that turn attention into revenue and ideas into scalable
-						brands. My work sits at the intersection of psychology,
-						data, storytelling, and performance strategy, where every
-						campaign is designed to influence decisions, build trust, 
-						and drive measurable business growth across digital ecosystems.
-                      </p>
-                    </div>
-                  </div>
-                  <div
-                    class="elementor-element elementor-element-6dd0ff7 elementor-widget elementor-widget-jkit_button"
-                    data-id="6dd0ff7"
-                    data-element_type="widget"
-                    data-e-type="widget"
-                    data-widget_type="jkit_button.default"
-                  >
-                    <div class="elementor-widget-container">
-                      <div
-                        class="jeg-elementor-kit jkit-button icon-position-before jeg_module_7_4_6a7622608f79a"
-                      >
-                        <a href="#" class="jkit-button-wrapper"
-                          >Digital Marketer</a
-                        >
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    class="elementor-element elementor-element-4a41847 elementor-widget elementor-widget-jkit_button"
-                    data-id="4a41847"
-                    data-element_type="widget"
-                    data-e-type="widget"
-                    data-widget_type="jkit_button.default"
-                  >
-                    <div class="elementor-widget-container">
-                      <div
-                        class="jeg-elementor-kit jkit-button icon-position-before jeg_module_7_5_6a7622608ff5f"
-                      >
-                        <a href="#" class="jkit-button-wrapper"
-                          >Branding & Identity</a
-                        >
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    class="elementor-element elementor-element-7f71410 elementor-widget elementor-widget-jkit_button"
-                    data-id="7f71410"
-                    data-element_type="widget"
-                    data-e-type="widget"
-                    data-widget_type="jkit_button.default"
-                  >
-                    <div class="elementor-widget-container">
-                      <div
-                        class="jeg-elementor-kit jkit-button icon-position-before jeg_module_7_6_6a76226090703"
-                      >
-                        <a href="#" class="jkit-button-wrapper"
-                          >Content & Copywriting</a
-                        >
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    class="elementor-element elementor-element-b6acded elementor-widget elementor-widget-jkit_button"
-                    data-id="b6acded"
-                    data-element_type="widget"
-                    data-e-type="widget"
-                    data-widget_type="jkit_button.default"
-                  >
-                    <div class="elementor-widget-container">
-                      <div
-                        class="jeg-elementor-kit jkit-button icon-position-before jeg_module_7_7_6a76226090e52"
-                      >
-                        <a href="#" class="jkit-button-wrapper"
-                          >Social Media Marketer</a
-                        >
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  class=" e-con-full e-flex e-con e-child"
-                  data-id="3ace37f"
-                  data-element_type="container"
-                  data-e-type="container"
-                  data-settings='{"background_background":"classic","_ha_eqh_enable":false}'
-				>
-				
-                  <div
-                    class="elementor-element elementor-element-20a49ab e-con-full elementor-hidden-mobile e-flex e-con e-child"
-                    data-id="20a49ab"
-                    data-element_type="container"
-                    data-e-type="container"
-                    data-settings='{"background_background":"classic","position":"absolute","_ha_eqh_enable":false}'
-                  >
-                    <div
-                      class="elementor-element elementor-element-c5d1418 elementor-position-left elementor-widget-tablet__width-initial elementor-position-left elementor-vertical-align-middle elementor-widget elementor-widget-image-box"
-                      data-id="c5d1418"
-                      data-element_type="widget"
-                      data-e-type="widget"
-                      data-widget_type="image-box.default"
-                    >
-                      <div class="elementor-widget-container">
-                        <div class="elementor-image-box-wrapper">
-                          <figure class="elementor-image-box-img">
-                            <img
-                              decoding="async"
-                              width="50"
-                              height="49"
-                              src="5.png"
-                              class="attachment-full size-full wp-image-8046"
-                              alt=""
-                              data-pagespeed-url-hash="593944354"
-                              onload="
-                                pagespeed.CriticalImages.checkImageForCriticality(
-                                  this,
-                                )
-                              "
-                            />
-                          </figure>
-                          <div class="elementor-image-box-content">
-                            <h3 class="elementor-image-box-title">
-                              Khushi Dariyani
-                            </h3>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-              
-                </div>
-                <div
-                  class="elementor-element elementor-element-e7aef0f e-con-full e-flex e-con e-child"
-                  data-id="e7aef0f"
-                  data-element_type="container"
-                  data-e-type="container"
-                  data-settings='{"_ha_eqh_enable":false}'
-                >
-                  <div
-                    class="elementor-element elementor-element-ab28ea7 elementor-widget-tablet__width-initial elementor-widget-mobile__width-initial elementor-widget elementor-widget-text-editor"
-                    data-id="ab28ea7"
-                    data-element_type="widget"
-                    data-e-type="widget"
-                    data-widget_type="text-editor.default"
-                  >
-                    <div class="elementor-widget-container">
-                      <p>
-                        I don't just “do marketing.” I engineer growth systems
-						that turn attention into revenue and ideas into scalable
-						brands.
-                      </p>
-                    </div>
-                  </div>
-                </div>
+
+              <script>
+                // Reveal words from right to left by applying a staggered class.
+                (function(){
+                  try{
+                    var container=document.querySelector('.animated-skills-headline');
+                    if(!container) return;
+                    var words=container.querySelectorAll('.skills-headline-text .word');
+                    // convert data-i to numeric and sort so lower i reveals first (rightmost)
+                    var arr=Array.from(words).sort(function(a,b){return Number(a.getAttribute('data-i'))-Number(b.getAttribute('data-i'))});
+                    arr.forEach(function(w,idx){
+                      var delay=(Number(w.getAttribute('data-i'))*120);
+                      setTimeout(function(){ w.classList.add('is-reveal'); }, delay);
+                    });
+                    // start underline slightly after words begin
+                  }catch(e){/* graceful fallback */}
+                })();
+              </script>
+              <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css" integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+              <div class="social-prof">
+                <a href="https://www.linkedin.com/in/khushi-dariyani-23a52b310/" target="_blank" class="social-l" title="LinkedIn"><i class="fa-brands fa-square-linkedin"></i></a>
+                <!-- <a href="#" class="social-l" title="Twitter">𝕏</a>
+                <a href="#" class="social-l" title="Instagram">📷</a> -->
+                <a href="mailto:khushidariyani21@gmail.com" target="_blank" class="social-l" title="Email"><i class="fa-solid fa-envelope"></i></a>
               </div>
             </div>
           </div>
+
           <div
             class="elementor-element elementor-element-a58a3f5 e-con-full e-flex e-con e-child"
             data-id="a58a3f5"
@@ -3791,7 +3693,7 @@
                       <span
                         class="elementor-counter-number"
                         data-duration="2000"
-                        data-to-value="25"
+                        data-to-value="160"
                         data-from-value="0"
                         data-delimiter=","
                         >0</span
@@ -4220,13 +4122,7 @@
                 data-e-type="container"
                 data-settings='{"background_background":"classic","jkit_sticky_device":["desktop","tablet"],"_ha_eqh_enable":false,"jkit_sticky_top_position":{"unit":"px","size":0,"sizes":[]}}'
               >
-                <div
-                  class="elementor-element elementor-element-cb076db e-con-full e-flex e-con e-child"
-                  data-id="cb076db"
-                  data-element_type="container"
-                  data-e-type="container"
-                  data-settings='{"background_background":"classic","_ha_eqh_enable":false}'
-                >
+               
                   <div
                     class="elementor-element elementor-element-a0116d0 elementor-widget elementor-widget-image"
                     data-id="a0116d0"
@@ -4238,10 +4134,14 @@
                       <style>
                         @media screen and (max-width: 767px) {
                             .wp-image-8060{
-                              height: 370px!important;
-                              /* width: 100%!important; */
+                              height: 350px!important;
+                              width: 304px!important;
                             }
                           }
+                          .wp-image-8060{
+                              height: 304px!important;
+                              width: 304px!important;
+                            }
                       </style>
                       <img
                         loading="lazy"
@@ -4262,7 +4162,6 @@
                       />
                     </div>
                   </div>
-                </div>
                 <div
                   class="elementor-element elementor-element-eff3fe2 e-con-full e-flex e-con e-child"
                   data-id="eff3fe2"
@@ -4346,7 +4245,7 @@
                           <div
                             class="jeg-elementor-kit jkit-button icon-position-before jeg_module_7_24_6a762260a509b"
                           >
-                            <a href="#" class="jkit-button-wrapper">View My Work</a>
+                            <a href="projects/index.html" class="jkit-button-wrapper">View My Work</a>
                           </div>
                         </div>
                       </div>
@@ -4403,7 +4302,7 @@
                 
     
              
-                <div
+                <!-- <div
                   class="elementor-element elementor-element-6c669ca elementor-widget elementor-widget-heading"
                   data-id="6c669ca"
                   data-element_type="widget"
@@ -4622,7 +4521,7 @@
                     </div>
                   </div>
                   
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
@@ -6372,7 +6271,7 @@
                     <div
                       class="jeg-elementor-kit jkit-button icon-position-before jeg_module_7_55_6a7622612a0e5"
                     >
-                      <a href="#" class="jkit-button-wrapper">View my work</a>
+                      <a href="projects/index.html" class="jkit-button-wrapper">View my work</a>
                     </div>
                   </div>
                 </div>
